@@ -1,0 +1,179 @@
+
+
+#title {
+  background-color: #ff4c68
+}
+
+/* TITLE PAGE */
+
+body .container-fluid {
+  padding: 3% 15% 9%;
+}
+
+.row h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#title nav {
+  padding:0 0 4.2rem;
+}
+
+.collapse {
+  padding: 0 1.2rem;
+  font-size: 1.2rem
+}
+
+.row button {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  transform: rotate(20deg);
+  width: 50%;
+  position: absolute;
+  right: 30%;
+}
+
+/* FEATURES PAGE */
+#features {
+  background-color: white;
+  position: relative;
+}
+
+.box {
+  text-align: center;
+}
+
+.feature-box h3 {
+  font-style: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.feature-box i {
+  font-size: 3rem;
+  color: #ef8172;
+  line-height: 1.5;
+}
+
+.feature-box i:hover {
+    color: #ff4c68;
+}
+
+.feature-box {
+  padding: 5% 3%;
+}
+
+.feature-box p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+
+/* TESTIMONIALS */
+
+#testimonials {
+
+  text-align: center;
+  background-color: #ef8172;
+}
+
+#testimonials h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.test-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* PRESS */
+
+#press {
+  background-color: #ef8172;
+  padding: 3%;
+  text-align: center;
+}
+
+#press img {
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* CTA */
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+#cta h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: white;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+#cta button {
+  margin: 12px 20px;
+}
+
+/* FOOTER */
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 5%;
+}
+
+#footer i {
+  margin: 20px 10px;
+  font-size: 1.3rem;
+}
+
+#footer p {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width:1000px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+  #title .row {
+    text-align: center;
+  }
+}
